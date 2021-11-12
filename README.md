@@ -1,2 +1,2 @@
 # Recognition-of-handwritten-digits
-This neural network recognizes handwritten numbers
+Recognition of handwritten numbers on Python
