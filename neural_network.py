@@ -35,7 +35,7 @@ pred = np.argmax(pred, axis=1)
 
 mask = pred == y_test
 x_false = x_test[~mask]
-y_false = x_test[~mask]
+y_false = y_test[~mask]
 
 plt.figure(figsize=(10,5))
 for i in range(25):
